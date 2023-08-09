@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>TravelApp</title>
+   <link rel="stylesheet" href="css/all.min.css">
+   <link rel="stylesheet" href="css/bootstrap.min.css">
+   <link rel="stylesheet" href="css/style.css">
+</head>
+<body style="background-color: #f3f3f3;">
+
+   <nav class="navbar navbar-expand-lg navbar-dark bg-black bg-opacity-75  fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">Travel</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="#Portfolio">OurTrips</a>
+            </li>
+         
+            <li class="nav-item ms-2">
+              <a class="btn btn-danger btn-sm" href="#booknow">BookNow</a>
+            </li>
+          </ul>
+          
+        </div>
+      </div>
+    </nav>
+
+   <header id="home">
+      <div class="cover"></div>
+      <div class="content text-center">
+         <h5>Discover the Colorful World</h5>
+         <h3>New <span id="typedText"></span></h3>
+         <!-- <a class="btn btn-dark ">Dicover Now</a> -->
+      </div>
+   </header>
+
+   <section id="about" class="p-5">
+      <div class="text-center">
+         <h2>Why Choose Us </h2>
+      </div>
+
+      <div class="container mt-4">
+         <div class="row g-4 ">
+            <div class="col-md-6">
+               <div>
+                  <div class="abimg">
+                     <img src="images/img2.jpg" alt="" >
+                  </div>
+               </div>
+            </div>
+            <div class="col-md-6 ">
+               <div>
+                  <div class="aboutContent">
+                     <h3>We're truely dedicated </h3>
+                     <p class="lead mt-4">
+                        Top Tour Operators and Travel Agency. We offering in total 793 tours and holidays throughout the world. Combined we have received 1532 customer reviews and an average rating of 5 out of 5 stars.
+                        Travel has helped us to understand the meaning of life and it has helped us become better people. Each time we travel, we see the world with new eyes.
+                     </p>
+                     <!-- <button class="btn btn-danger">BookNow</button> -->
+                     <ul class="list-unstyled">
+                        <li class="fs-5 mb-2">
+                           <span class="d-inline-flex justify-content-center align-items-center">
+                              <i class="fa-solid fa-car"></i>
+                           </span>
+                           Best Accommodation
+                        </li>
+                        <li class="fs-5 mb-2">
+                           <span class="d-inline-flex justify-content-center align-items-center">
+                              <i class="fa-solid fa-map"></i>
+                           </span>
+                           Beautiful Destination
+                        </li>
+                        <li class="fs-5 mb-2">
+                           <span class="d-inline-flex justify-content-center align-items-center">
+                              <i class="fa-solid fa-hand-holding-dollar"></i>
+                           </span>
+                           Competitive Price
+                        </li>
+                        <li class="fs-5 mb-2">
+                           <span class="d-inline-flex justify-content-center align-items-center">
+                              <i class="fa-solid fa-hotel"></i>
+                           </span>
+                            Luxury Hotel
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+
+   </section>
+
+   <section class="ready text-center d-flex align-items-center justify-content-center">
+      <h3 class="">
+         Ready to travel with real adventure and enjoy natural
+      </h3>
+
+   </section>
+
+   <section id="Portfolio" class="p-5">
+      <div class="text-center">
+         <h2>Our Trips </h2>
+      </div>
+
+      <div class="container">
+         <div class="row g-3 pt-3">
+
+            <div class="col-md-4">
+               <div>
+                  <div class="card border-0 shadow ">
+
+                     <div class="overflow-hidden">
+                        <img src="./images/cardimg1.jpg" class="card-img-top ">
+                     </div>
+                     
+                     <div class="card-body">
+                        <ul class="d-flex gap-1 align-items-center list-unstyled">
+                           <li style="color: var(--starColor);">
+                              <i class="fas fa-star"></i>
+                           </li>
+                           <li style="color: var(--starColor);">
+                              <i class="fas fa-star"></i>
+                           </li>
+                           <li style="color: var(--starColor);">
+                              <i class="fas fa-star"></i>
+                           </li>
+                           <li style="color: var(--starColor);">
+                              <i class="fas fa-star"></i>
+                           </li>
+                        </ul>
+                        <h4>Discovery Island Kayak Tour</h4>
+                        <ul class="list-unstyled d-flex flex-column gap-2">
+                           <li>
+                              <i class="fas fa-map-marker-alt"></i>
+                              <span>Main Street, Brooklyn, NY</span>
+                           </li>
+
+                           <li>
+                              <i class="fa-solid fa-circle-dollar-to-slot"></i>
+                              <span>From <span>$129.00</span></span>
+                           </li>
+                           
+                        </ul>
+                        <button class="btn btn-danger">BookNow</button>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <div class="col-md-4">
+               <div>
+                  <div class="card border-0 shadow ">
+
+                     <div class="overflow-hidden">
+                        <img src="./images/cardimg2.jpg" class="card-img-top ">
+                     </div>
+                     
+                     <div class="card-body">
+                        <ul class="d-flex gap-1 align-items-center list-unstyled">
+                           <li style="color: var(--starColor);">
+                              <i class="fas fa-star"></i>
+                           </li>
+                           <li style="color: var(--starColor);">
+                              <i class="fas fa-star"></i>
+                           </li>
+                           <li style="color: var(--starColor);">
+                              <i class="fas fa-star"></i>
+                           </li>
+                           <li style="color: var(--starColor);">
+                              <i class="fas fa-star"></i>
+                           </li>
+                        </ul>
+                        <h4>Beautiful Floating Villa</h4>
+                        <ul class="list-unstyled d-flex flex-column gap-2">
+                           <li>
+                              <i class="fas fa-map-marker-alt"></i>
+                              <span>Main Street, Brooklyn, NY</span>
+                           </li>
+
+                           <li>
+                              <i class="fa-solid fa-circle-dollar-to-slot"></i>
+                              <span>From <span>$119.00</span></span>
+                           </li>
+                           
+                        </ul>
+                        <button class="btn btn-danger">BookNow</button>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <div class="col-md-4">
+               <div>
+                  <div class="card border-0 shadow ">
+
+                     <div class="overflow-hidden">
+                        <img src="./images/cardimg3.jpg" class="card-img-top ">
+                     </div>
+                     
+                     <div class="card-body">
+                        <ul class="d-flex gap-1 align-items-center list-unstyled">
+                           <li style="color: var(--starColor);">
+                              <i class="fas fa-star"></i>
+                           </li>
+                           <li style="color: var(--starColor);">
+                              <i class="fas fa-star"></i>
+                           </li>
+                           <li style="color: var(--starColor);">
+                              <i class="fas fa-star"></i>
+                           </li>
+                           <li style="color: var(--starColor);">
+                              <i class="fas fa-star"></i>
+                           </li>
+                        </ul>
+                        <h4>Yucatán Peninsula</h4>
+                        <ul class="list-unstyled d-flex flex-column gap-2">
+                           <li>
+                              <i class="fas fa-map-marker-alt"></i>
+                              <span>Main Street, Brooklyn, NY</span>
+                           </li>
+
+                           <li>
+                              <i class="fa-solid fa-circle-dollar-to-slot"></i>
+                              <span>From <span>$119.00</span></span>
+                           </li>
+                           
+                        </ul>
+                        <button class="btn btn-danger">BookNow</button>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <div class="col-md-4">
+               <div>
+                  <div class="card border-0 shadow ">
+
+                     <div class="overflow-hidden">
+                        <img src="./images/cardimg4.jpg" class="card-img-top ">
+                     </div>
+                     
+                     <div class="card-body">
+                        <ul class="d-flex gap-1 align-items-center list-unstyled">
+                           <li style="color: var(--starColor);">
+                              <i class="fas fa-star"></i>
+                           </li>
+                           <li style="color: var(--starColor);">
+                              <i class="fas fa-star"></i>
+                           </li>
+                           <li style="color: var(--starColor);">
+                              <i class="fas fa-star"></i>
+                           </li>
+                           <li style="color: var(--starColor);">
+                              <i class="fas fa-star"></i>
+                           </li>
+                        </ul>
+                        <h4>Yucatán Peninsula</h4>
+                        <ul class="list-unstyled d-flex flex-column gap-2">
+                           <li>
+                              <i class="fas fa-map-marker-alt"></i>
+                              <span>Main Street, Brooklyn, NY</span>
+                           </li>
+
+                           <li>
+                              <i class="fa-solid fa-circle-dollar-to-slot"></i>
+                              <span>From <span>$119.00</span></span>
+                           </li>
+                           
+                        </ul>
+                        <button class="btn btn-danger">BookNow</button>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <div class="col-md-4">
+               <div>
+                  <div class="card border-0 shadow ">
+
+                     <div class="overflow-hidden">
+                        <img src="./images/cardimg5.jpg" class="card-img-top ">
+                     </div>
+                     
+                     <div class="card-body">
+                        <ul class="d-flex gap-1 align-items-center list-unstyled">
+                           <li style="color: var(--starColor);">
+                              <i class="fas fa-star"></i>
+                           </li>
+                           <li style="color: var(--starColor);">
+                              <i class="fas fa-star"></i>
+                           </li>
+                           <li style="color: var(--starColor);">
+                              <i class="fas fa-star"></i>
+                           </li>
+                           <li style="color: var(--starColor);">
+                              <i class="fas fa-star"></i>
+                           </li>
+                        </ul>
+                        <h4>Yucatán Peninsula</h4>
+                        <ul class="list-unstyled d-flex flex-column gap-2">
+                           <li>
+                              <i class="fas fa-map-marker-alt"></i>
+                              <span>Main Street, Brooklyn, NY</span>
+                           </li>
+
+                           <li>
+                              <i class="fa-solid fa-circle-dollar-to-slot"></i>
+                              <span>From <span>$220.00</span></span>
+                           </li>
+                           
+                        </ul>
+                        <button class="btn btn-danger">BookNow</button>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            
+            <div class="col-md-4">
+               <div>
+                  <div class="card border-0 shadow ">
+
+                     <div class="overflow-hidden">
+                        <img src="./images/cardimg6.jpg" class="card-img-top ">
+                     </div>
+                     
+                     <div class="card-body">
+                        <ul class="d-flex gap-1 align-items-center list-unstyled">
+                           <li style="color: var(--starColor);">
+                              <i class="fas fa-star"></i>
+                           </li>
+                           <li style="color: var(--starColor);">
+                              <i class="fas fa-star"></i>
+                           </li>
+                           <li style="color: var(--starColor);">
+                              <i class="fas fa-star"></i>
+                           </li>
+                           <li style="color: var(--starColor);">
+                              <i class="fas fa-star"></i>
+                           </li>
+                        </ul>
+                        <h4>Yucatán Peninsula</h4>
+                        <ul class="list-unstyled d-flex flex-column gap-2">
+                           <li>
+                              <i class="fas fa-map-marker-alt"></i>
+                              <span>Main Street, Brooklyn, NY</span>
+                           </li>
+
+                           <li>
+                              <i class="fa-solid fa-circle-dollar-to-slot"></i>
+                              <span>From <span>$220.00</span></span>
+                           </li>
+                           
+                        </ul>
+                        <button class="btn btn-danger">BookNow</button>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            
+
+         </div>
+      </div>
+   </section>
+
+    <section class="off container-fluid p-5" >
+      <div class="container p-5">
+          <div class="row align-items-center">
+              <div class="col-md-12 text-center " >
+                  <div >
+                      <h6 class=" text-uppercase" style="letter-spacing: 5px;">Mega Offer</h6>
+                      <h1 class="text-white"><span class="">30% OFF</span> For Honeymoon</h1>
+                  </div>
+                  <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe sed, ullam dolor voluptatum asperiores unde nemo enim aliquid assumenda incidunt deleniti. Consequuntur, perferendis natus cum velit qui dolorum voluptatibus laudantium voluptates accusantium atque pariatur blanditiis quo magnam quas nulla tempora.</p>
+              </div>
+          </div>
+      </div>
+    </section>
+
+  <section id="booknow" class="p-5">
+
+   <div class="text-center">
+      <h2>Book Now</h2>
+   </div>
+
+   <div class="container p-5">
+      <div class="row justify-content-center ">
+         <div class="col-md-6">
+            <div>
+               <div>
+                  <h3>We're truely dedicated </h3>
+                  <p class="lead mt-4">
+                     Top Tour Operators and Travel Agency. We offering in total 793 tours and holidays throughout the world. Combined we have received 1532 customer reviews and an average rating of 5 out of 5 stars.
+                     Travel has helped us to understand the meaning of life and it has helped us become better people. Each time we travel, we see the world with new eyes.
+                  </p>
+               </div>
+            </div>
+         </div>
+         <div class="col-md-5">
+            <form class="shadow p-3 ">
+
+              <div class="mb-2">
+               <label>From :</label>
+               <select class="form-control" name="from">
+                  <option>NewYork</option>
+                  <option>value2</option>
+                  <option>value3</option>
+               </select>
+              </div>
+                  
+             <div class="mb-2">
+               <label>To :</label>
+               <select class="form-control" name="to">
+                  <option>NewYork</option>
+                  <option>value2</option>
+                  <option>value3</option>
+               </select>
+             </div>
+
+            <div class="mb-2">
+               <label>CheckIn :</label>
+               <input class="form-control" type="datetime-local" name="checkin"/>
+            </div>
+
+            <div class="mb-2">
+               <label>CheckOut :</label>
+               <input class="form-control" type="datetime-local" name="checkout" />
+            </div>
+               
+               <button class="btn btn-danger " type="submit">BookNow</button>
+            </form>
+         </div>
+      </div>
+
+   </div>
+
+  </section>
+
+   <script src="js/bootstrap.bundle.min.js"></script>
+      <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>  
+   <script src="js/script.js"></script>
+</body>
+</html>
